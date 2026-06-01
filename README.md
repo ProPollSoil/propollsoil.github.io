@@ -1,3 +1,3 @@
 # pages
 
-A placeholder for DMP associated material
+A placeholder for DMP associated material.
