@@ -1,5 +1,5 @@
 ---
-short-title: drone-bee-nest
+id: drone-bee-nest
 title: Drone Footage of Bee Nests 
 ---
 

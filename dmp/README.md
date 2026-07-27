@@ -1,5 +1,5 @@
 ---
-short-title: dmp
+id: dmp
 title: Data Management Plan – Initial Version
 status: reviewed | published | submitted | in progress etc etc. 
 contactperson:
