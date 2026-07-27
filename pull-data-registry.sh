@@ -13,5 +13,5 @@
 #
 # 
 
-echo attempting to copy resources to Butterfly Data Registry Next Cloud
+echo attempting to copy resources from ProPollSoil Data Registry Next Cloud
 rclone copy --verbose -L propollsoil-dmp:../data_registry .
