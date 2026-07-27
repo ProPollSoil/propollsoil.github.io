@@ -12,9 +12,9 @@ authors:
     affiliation: "Technical University of Munich"
     orcid: "0000-0002-1736-3946"
     role: 
-      - design experiment
-      - wrote manuscript
-      - reviewed figures
+      - "design experiment"
+      - "wrote manuscript"
+      - "reviewed figures"
   - name: "Alejandra Parreno"
     affiliation: "Technical University of Munich"
     orcid: "0000-0002-1453-5693"
@@ -66,15 +66,15 @@ files:
    fingerprint: hash://md5/1234abc5
  - name: dmp.md
    fingerprint: hash://md5/1234abc5
- - name: dmp.docx (zip file with incomprehensable xml files)
+ - name: dmp.docx
    fingerprint: hash://md5/2642
  - name: dmp.pdf
    fingerprint: hash://md5/144325
  - name: dmp.epub
    fingerprint: hash://sha256/23456
-lastUpdated: 2026-03-31 (31/03/2026 (please use ISO8601)
-registrationDate: 2026-07-20 (20/07/2026
-abstract: This initial version of the ProPollSoil Data Management Plan (DMP) provides a strategy for producing, storing, curating, and sharing project data in compliance with FAIR principles (findability, accessibility, interoperability, and reusability). As the project progresses, the DMP will be improved and adapted to the project’s needs within D1.3 (updated version) and D1.4 (final version).
+lastUpdated: 2026-03-31
+registrationDate: 2026-07-20
+abstract: "This initial version of the ProPollSoil Data Management Plan (DMP) provides a strategy for producing, storing, curating, and sharing project data in compliance with FAIR principles (findability, accessibility, interoperability, and reusability). As the project progresses, the DMP will be improved and adapted to the project’s needs within D1.3 (updated version) and D1.4 (final version)."
 grant-agreement-number: 101219108
 project-name: propollsoil 
 workpackage-task: WP1
@@ -87,8 +87,9 @@ keywords:
   - open science
   - Horizon Europe
   - ProPollSoil
- license:
-     - CC-BY (e.g., cc0, cc-by): CC-BY 4.0
+license:
+     - id: CC-BY-4.0
+       name: "Creative Commons Attribution 4.0 International"
   
 ---
 
