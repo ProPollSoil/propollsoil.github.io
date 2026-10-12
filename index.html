@@ -1,6 +1,14 @@
-<p>ProPollSoil Data Registry</p>
+---
+---
+
+<p>ProPollSoil Registry</p>
+<p>🚧<strong>work in progress</strong>🚧</p>
+
+<a href="datasets.json">json</a> | <a href="datasets.tsv">tsv</a>
 <ul>
-<li><a href="dmp/README.md">dmp</a></li>
-<li><a href="drone-bee-nest/README.md">done-bee-nest</a></li>
+{% assign datasets = site.datasets | sort: "workpackage" -%}
+{% for dataset in datasets -%}
+  <li>{{ dataset.workpackage }}: <a href="https://orcid.org/{{ dataset.authors[0].orcid }}">{{ dataset.authors[0].name }}</a> <em>et al.</em> <a href="{{ dataset.id }}/README.md">{{ dataset.title }} ({{ dataset.name }})</a></li>
+{%- endfor %}
 </ul>
-<p><strong>work in progress</strong></p>
+

@@ -1,0 +1,6 @@
+---
+---
+name	first_author_name	first_author_orcid	title	workpackage	url
+{%- for dataset in site.datasets %}
+{{ dataset.name }}	{{ dataset.authors[0].name}}	{{ dataset.authors[0].orcid }}	{{dataset.title}}	{{dataset.workpackage}}	{{site.baseurl}}{{dataset.id}}
+{%- endfor %}

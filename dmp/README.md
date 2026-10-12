@@ -1,7 +1,9 @@
 ---
 id: dmp
+name: dmp
 title: Data Management Plan – Initial Version
 status: reviewed | published | submitted | in progress etc etc. 
+workpackage: WP1
 contactperson:
   - name: "Astrid E. Neumann"
     affiliation: "Technical University of Munich"
