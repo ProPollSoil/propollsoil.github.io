@@ -8,7 +8,7 @@
 <ul>
 {% assign datasets = site.datasets | sort: "workpackage" -%}
 {% for dataset in datasets -%}
-  <li>{{ dataset.workpackage }}: <a href="https://orcid.org/{{ dataset.authors[0].orcid }}">{{ dataset.authors[0].name }}</a> <em>et al.</em> <a href="{{ dataset.id }}">{{ dataset.title }} ({{ dataset.name }})</a></li>
+  <li>{{ dataset.workpackage }}: <a href="https://orcid.org/{{ dataset.authors[0].orcid }}">{{ dataset.authors[0].name }}</a> <em>et al.</em> <a href="{{ dataset.id }}.html">{{ dataset.title }} ({{ dataset.name }})</a></li>
 {%- endfor %}
 </ul>
 
