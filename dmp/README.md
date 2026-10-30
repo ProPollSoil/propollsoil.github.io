@@ -149,7 +149,9 @@ license: CC0-1.0
 #  
 # End of Standard Citation File Format fields.
 
-### The "---" mark the end of the machine readable front matter part of this file.   
+# The "---" mark the end of the machine readable front matter part of 
+# this file. Below the "---" mark you can include whatever you find useful 
+# in "Markdown" format to help inform fellow humans about your dataset. 
 ---
 
 # ProPollSoil Data Management Plan - Initial Version
