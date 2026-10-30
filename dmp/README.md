@@ -1,18 +1,29 @@
 ---
 # Note 
-# The "---" above marks the start of the machine readable "Frontmatter" part of this "Markdown" file. 
+# The "---" above marks the start of the machine readable "Frontmatter"
+# part of this "Markdown" file. 
 # For more information on Markdown, see https://www.markdownlang.com . 
-# To learn more about frontmatter see https://www.markdownlang.com/advanced/frontmatter.html . Also, in the frontmatter part of this file, any line starting with # is a comment that is used for informational purposes for humans, and will be ignored by machines.
+# To learn more about Frontmatter see https://www.markdownlang.com/advanced/frontmatter.html . 
+# Also, in the Frontmatter part of this file, any line starting with "#"
+# is a comment that is used for informational purposes for humans, and will be ignored by machines.
 # 
 # 
 # 
 # 2026-10-30 
 # 
-# Hi! This is a ProPollSoil README.md that describes a ProPollSoil dataset. These README.md files are populated by work package and task members to let their colleagues know what they are working on through the ProPollSoil Dataset Registry. Also, this will help solicited internal reviewers to help started with their reviews.
+# Hi! This is a ProPollSoil README.md that describes a ProPollSoil dataset. 
+# These README.md files are populated by work package and task members
+# to let their colleagues know what they are working on through the
+# ProPollSoil Dataset Registry. Also, this will help solicited internal 
+# reviewers to help started with their reviews.
 # 
-# Please use this example as a template to create a first version of your README.md for each of the datasets that you or your colleagues are working on. Incomplete README.md are ok, as long as the project related fields and the contact is populated.
+# Please use this example as a template to create a first version of your
+#  README.md for each of the datasets that you or your colleagues are working 
+# on. Incomplete README.md are ok, as long as the project related fields 
+# and the contact is populated.
 # 
-# If you have any questions, or ideas for improvement, please contact Astrid, Pierre, Jorrit or members of the ProPollSoil Data Management Board.
+# If you have any questions, or ideas for improvement, 
+# please contact Astrid, Pierre, Jorrit or members of the ProPollSoil Data Management Board.
 # 
 # Thank you!
 # 
@@ -57,7 +68,8 @@ title: Data Management Plan – Initial Version
 # 
 
 message: >- # this means that newlines are ignored until version: .  
-  The dmp has been reviewed internally by Alexandra Splitt externally by the ProPollSoil program officer. 
+  The dmp has been reviewed internally by Alexandra Splitt Thank you Alex!;
+  Also, a version was reviewed externally by the ProPollSoil program officer. 
   We are preparing to submit a revision by 2027.
 
 version: 1.5 
@@ -113,8 +125,13 @@ authors:
     affiliation: "Technical University of Munich"
     orcid: "https://orcid.org/0000-0002-8154-9569"
 abstract: >- # this means that newlines are ignored until keywords: 
-  This initial version of the ProPollSoil Data Management Plan (DMP) provides a strategy for producing, storing, curating, and sharing project data in compliance with FAIR principles (findability, accessibility, interoperability, and reusability). 
-  As the project progresses, the DMP will be improved and adapted to the project’s needs within D1.3 (updated version) and D1.4 (final version)."
+  This initial version of the ProPollSoil Data Management Plan (DMP) 
+  provides a strategy for producing, storing, curating, and sharing 
+  project data in compliance with FAIR principles (findability, 
+  accessibility, interoperability, and reusability). 
+  As the project progresses, the DMP will be improved and adapted 
+  to the project’s needs within D1.3 (updated version) and 
+  D1.4 (final version)."
 # keywords aid in finding this dataset
 keywords:
   - data management
