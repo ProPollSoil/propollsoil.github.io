@@ -18,14 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Open Traits Network
+title: ProPollSoil Registry
 # email: mail@opentraits.org
 description: >- # this means to ignore newlines until "baseurl:"
-  The Open Traits Network (OTN) is a global, decentralised community 
-  of researchers and institutions focused on standardising and 
-  integrating trait data across all organisms. 
+  ProPollSoil doi:10.3030/101219108 “Understanding and managing soil health impacts to protect soil-dependent pollinators” aims to enhance our understanding of the relationship between soil health and soil-dependent pollinators, which spend part of their life cycle in or on soil and play vital roles in ecosystems and agriculture, providing services like pollination, decomposition and nutrient cycling. ProPollSoil is funded as part of Mission Soil, the “soil deal for Europe” through the call for proposal “Soil health, pollinators and key ecosystem functions” HORIZON-MISS-2024-SOIL-01-05 .
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://propollsoil.github.io/data_registry" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://propollsoil.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 minima:
     github: propollsoil
