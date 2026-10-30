@@ -47,25 +47,25 @@ reviewers:
 # End of custom ProPollSoil metadata fields
 #
 # Start of Standard Citation File Format fields.
-# 
+#  
 # The content below could have been generated with cffinit.
 # Visit https://bit.ly/cffinit to generate yours today!
-# 
+#  
 # A CITATION.cff file is a YAML file https://yaml.org
 # YAML files are recommended to be a UTF-8 encoded text files
 # In YAML files, comments are prefixed with #
 # So, all the previous lines are comments.
-# 
+#  
 # For our ProPollSoil registry, we use a combination of CFF and markdown with front matter. Having just one file with a machine readable (i.e. front matter) and human readable (i.e. the markdown below front matter) part makes for easier communication, management and exchange.  
-# 
+#  
 cff-version: 1.2.0
 title: Data Management Plan – Initial Version
 
-# 
+#  
 # Please include the status of the dataset in the "message:" field.
 # So, if the dataset/document is in preparation, say the work is in preparation.
 # Also, if you have not yet selected reviewers, include your plan to find reviewers. 
-# 
+#  
 
 message: >- # this means that newlines are ignored until version: .  
   The dmp has been reviewed internally by Alexandra Splitt Thank you Alex!;
@@ -146,7 +146,7 @@ keywords:
 #license: CC-BY-4.0
 license: CC0-1.0
 # For other license types, please contact your work package leader or data management board members.
-# 
+#  
 # End of Standard Citation File Format fields.
 
 ### The "---" mark the end of the machine readable front matter part of this file.   
