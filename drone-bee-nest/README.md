@@ -6,7 +6,7 @@ workpackage: WP3
 task: T3.3
 license: CC-BY-4.0
 message: >-
-  Initial version of README.md submitted before 30 October 2026
+  Initial version of README.md was submitted before 30 October 2026.
 reviewers:
   - family-names: NA
     given-names: NA

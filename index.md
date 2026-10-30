@@ -66,7 +66,6 @@ Sample extracted from Astrid's README.md on 2026-10-30 from [https://codeberg.or
 id: dmp
 name: dmp
 # please select an appropriate "state" that your dataset is in, you can use the "message" field to elaborate
-status: initial reviews complete, working on revisions 
 # please fill out these project related fields: project, workpackage and task 
 project: propollsoil
 workpackage: WP1

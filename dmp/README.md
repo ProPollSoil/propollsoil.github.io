@@ -22,8 +22,6 @@
 #  
 id: dmp
 name: dmp
-# please select an appropriate "state" that your dataset is in, you can use the "message" field to elaborate
-status: initial reviews complete, working on revisions 
 # please fill out these project related fields: project, workpackage and task 
 project: propollsoil
 workpackage: WP1
@@ -53,7 +51,7 @@ cff-version: 1.2.0
 title: Data Management Plan – Initial Version
 
 # 
-# Please include the status of the dataset as well as the selected reviewers in the "message" field.
+# Please include the status of the dataset in the "message:" field.
 # So, if the dataset/document is in preparation, say the work is in preparation.
 # Also, if you have not yet selected reviewers, include your plan to find reviewers. 
 # 
