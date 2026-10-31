@@ -41,7 +41,7 @@ Please submit your dataset README.md as soon as possible, even if your dataset i
 Sample extracted from Astrid's README.md on 2026-10-30 from [https://codeberg.org/ProPollSoil/dataset-registry/src/branch/main/dmp/README.md?display=source](https://codeberg.org/ProPollSoil/dataset-registry/src/branch/main/dmp/README.md?display=source).
 
 
----
+```
 ---
 # Note 
 # The "---" above marks the start of the machine readable "Frontmatter"
