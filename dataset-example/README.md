@@ -11,7 +11,7 @@ reviewers:
     given-names: "Nescio"
     affiliation: "Some Institution"
     orcid: "https://orcid.org/0000-000X-XXXX-XXXX"
-title: Data Management Plan – Initial Version
+title: Dataset Example Title
 
 message: >- # this means that newlines are ignored until version: . 
     Replace this text with a status update for your dataset.
