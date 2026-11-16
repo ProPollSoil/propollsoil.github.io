@@ -16,7 +16,7 @@ If you are a ProPollSoil consortium member and your dataset is not listed below,
 | --- | --- | --- | --- | --- | --- |
 {% assign datasets = site.datasets | sort: "workpackage" -%}
 {% for dataset in datasets -%}
-| {{ dataset.workpackage }}: {{ dataset.task }} | **{{ dataset.name }}** | [{{ dataset.authors[0].family-names }}, {{ dataset.authors[0].given-names }}]({{ dataset.authors[0].orcid }}) *et al.* [✉️](mailto:{{ dataset.contact[0].email }}) | [{{ dataset.title }}]({{ dataset.id }} "{{ dataset.abstract }}") [✏️](https://codeberg.org/ProPollSoil/dataset-registry/raw/branch/main//{{ dataset.name }}/README.md) | {{ dataset.reviewers[0].family-names }}, {{ dataset.reviewers[0].given-names }} @ {{ dataset.reviewers[0].affiliation }} | {{ dataset.message }}
+| {{ dataset.workpackage }}: {{ dataset.task }} | **{{ dataset.name }}** | [{{ dataset.authors[0].family-names }}, {{ dataset.authors[0].given-names }}]({{ dataset.authors[0].orcid }}) *et al.* [✉️](mailto:{{ dataset.contact[0].email }}) | [{{ dataset.title }}]({{ dataset.id }} "{{ dataset.abstract }}") [✏️](https://github.com/ProPollSoil/propollsoil.github.io/tree/main/{{ dataset.name }}/README.md) | {{ dataset.reviewers[0].family-names }}, {{ dataset.reviewers[0].given-names }} @ {{ dataset.reviewers[0].affiliation }} | {{ dataset.message }}
 {% endfor %}
 
 ## Register
@@ -43,38 +43,7 @@ Sample extracted from Astrid's README.md on 2026-10-30 from [https://codeberg.or
 
 ```
 ---
-# Note 
-# The "---" above marks the start of the machine readable "Frontmatter"
-# part of this "Markdown" file. 
-# For more information on Markdown, see https://www.markdownlang.com . 
-# To learn more about Frontmatter see https://www.markdownlang.com/advanced/frontmatter.html . 
-# Also, in the Frontmatter part of this file, any line starting with "#"
-# is a comment that is used for informational purposes for humans, and will be ignored by machines.
-# 
-# 
-# 
-# 2026-10-30 
-# 
-# Hi! This is a ProPollSoil README.md that describes a ProPollSoil dataset. 
-# These README.md files are populated by work package and task members
-# to let their colleagues know what they are working on through the
-# ProPollSoil Dataset Registry. Also, this will help solicited internal 
-# reviewers to help started with their reviews.
-# 
-# Please use this example as a template to create a first version of your
-#  README.md for each of the datasets that you or your colleagues are working 
-# on. Incomplete README.md are ok, as long as the project related fields 
-# and the contact is populated.
-# 
-# If you have any questions, or ideas for improvement, 
-# please contact Astrid, Pierre, Jorrit or members of the ProPollSoil Data Management Board.
-# 
-# Thank you!
-# 
-# -jorrit
-#  
-# Start of custom ProPollSoil metadata fields
-#  
+# id/name of your dataset
 id: dmp
 name: dmp
 # please fill out these project related fields: project, workpackage and task 
@@ -87,22 +56,6 @@ reviewers:
     affiliation: "INHORT"
     orcid: "https://orcid.org/0000-0002-3262-6185"
   - name: "Program Manager at the UPO Project Office"
-#  
-# End of custom ProPollSoil metadata fields
-#
-# Start of Standard Citation File Format fields.
-# 
-# The content below could have been generated with cffinit.
-# Visit https://bit.ly/cffinit to generate yours today!
-# 
-# A CITATION.cff file is a YAML file https://yaml.org
-# YAML files are recommended to be a UTF-8 encoded text files
-# In YAML files, comments are prefixed with #
-# So, all the previous lines are comments.
-# 
-# For our ProPollSoil registry, we use a combination of CFF and markdown with front matter. Having just one file with a machine readable (i.e. front matter) and human readable (i.e. the markdown below front matter) part makes for easier communication, management and exchange.  
-# 
-cff-version: 1.2.0
 title: Data Management Plan – Initial Version
 
 # 
