@@ -63,10 +63,11 @@ title: Data Management Plan – Initial Version
 # Also, if you have not yet selected reviewers, include your plan to find reviewers. 
 # 
 
-message: >- # this means that newlines are ignored until version: .  
-  The dmp has been reviewed internally by Alexandra Splitt Thank you Alex!;
-  Also, a version was reviewed externally by the ProPollSoil program officer. 
-  We are preparing to submit a revision by 2027.
+message: >- # this means that newlines are ignored until version: . 
+  Replace this text with a status update for your dataset.
+  For instance, you can mention that the dataset is being compiled and
+  should be available somewhere in December 2035. However, the methods and
+  structure of the data is known and described here. 
 
 version: 1.5 
 # who to contact to learn more about the dataset
@@ -111,4 +112,25 @@ license: CC0-1.0
 
 You can write anything here to help provide more context for your dataset. Much like what you would find in a datapaper. For example, see [https://datadryad.org/dataset/doi:10.5061/dryad.zcrjdfnmw#readme](https://datadryad.org/dataset/doi:10.5061/dryad.zcrjdfnmw#readme) or [https://doi.org/10.5061/dryad.zcrjdfnmw](https://doi.org/10.5061/dryad.zcrjdfnmw).
 
+## Methods
+
+## Files 
+
+List the files that make up this dataset
+
+| name | description | 
+| --- | --- |
+| README.md | this file |
+| data.csv | data in comma separated values format |
+| data.xslx | data in a proprietary Excel format |
+
+## Data Fields
+
+For each data file, describe the data fields.
+
+| variable name | example value | 
+| --- | --- | 
+| variableName1 | value1  | 
+| variableName2 | value2 |
+| ... | ... | 
 ``` 
