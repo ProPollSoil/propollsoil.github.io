@@ -85,7 +85,7 @@ authors:
   - family-names: "Jachula"
     given-names: "Jacek"
     affiliation: "INHORT"
-    orcid: "https://orcid.org/0000-0002-1453-5693"
+    orcid: "https://orcid.org/0000-0001-8949-776X"
 abstract: >- # this means that newlines are ignored until keywords: 
   Two rounds of Delphi-style surveys were held in 2026 with about 200 experts on soil dependent pollinators from 32 European countries. 
 # keywords aid in finding this dataset
