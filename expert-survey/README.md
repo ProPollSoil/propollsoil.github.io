@@ -36,7 +36,7 @@ name: expert-survey
 # please fill out these project related fields: project, workpackage and task 
 project: propollsoil
 workpackage: WP2
-task: T2.6
+task: T2.2
 reviewers:
   - family-names: "NA"
     given-names: "NA"
@@ -58,7 +58,7 @@ reviewers:
 # For our ProPollSoil registry, we use a combination of CFF and markdown with front matter. Having just one file with a machine readable (i.e. front matter) and human readable (i.e. the markdown below front matter) part makes for easier communication, management and exchange.  
 #  
 cff-version: 1.2.0
-title: Expert Survey of Field Biologists on Pollinators Plants and Soil
+title: Expert Survey on Soil Dependent Pollinators 
 
 #  
 # Please include the status of the dataset in the "message:" field.
@@ -67,36 +67,40 @@ title: Expert Survey of Field Biologists on Pollinators Plants and Soil
 #  
 
 message: >- # this means that newlines are ignored until version: .  
-  An initial description of the expoert survey was transcribed on 2026-11-16 derived from Alexandra Splitt's presentation
+  An initial description of the expert survey was transcribed on 2026-11-16 derived from Alexandra Splitt's presentation
 
 version: TODO 
 # who to contact to learn more about the dataset
 contact:
   - family-names: "Splitt"
-    given-names: "Alexandra"
+    given-names: "Aleksandra"
     affiliation: "INHORT"
     orcid: "https://orcid.org/0000-0002-3262-6185"
+    email: aleksandra.splitt@gmail.com
 authors:
   - family-names: "Splitt"
     given-names: "Alexandra"
     affiliation: "INHORT"
     orcid: "https://orcid.org/0000-0002-3262-6185"
-  - family-names: "TODO"
-    given-names: "TODO"
-    affiliation: "TODO"
+  - family-names: "Jachula"
+    given-names: "Jacek"
+    affiliation: "INHORT"
     orcid: "https://orcid.org/0000-0002-1453-5693"
 abstract: >- # this means that newlines are ignored until keywords: 
-  Two rounds of Delphi-style surveys were held in 2026 with over 200 experts from many European countries. 
+  Two rounds of Delphi-style surveys were held in 2026 with about 200 experts on soil dependent pollinators from 32 European countries. 
 # keywords aid in finding this dataset
 keywords:
-  - metadata
-  - data review
-  - open science
+  - delphi survey
+  - ground nesting bees
+  - pollinators
+  - soil
+  - conservation
+  - threats
   - Horizon Europe
   - ProPollSoil
 # select an open license CC-BY-4.0 or CC0-1.0 by commenting or uncommenting the entry below
-#license: CC-BY-4.0
-license: CC0-1.0
+license: CC-BY-4.0
+#license: CC0-1.0
 # For other license types, please contact your work package leader or data management board members.
 #  
 # End of Standard Citation File Format fields.
