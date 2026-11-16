@@ -4,8 +4,8 @@ id: bee-nests-ground-nesting
 name: bee-nests-ground-nesting
 # please fill out these project related fields: project, workpackage and task 
 project: propollsoil
-workpackage: WP0
-task: T0.0
+workpackage: WP3
+task: T3.1
 reviewers:
   - family-names: "Nomen"
     given-names: "Nescio"
