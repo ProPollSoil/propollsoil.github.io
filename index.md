@@ -16,7 +16,7 @@ If you are a ProPollSoil consortium member and your dataset is not listed below,
 | --- | --- | --- | --- | --- | --- |
 {% assign datasets = site.datasets | sort: "workpackage" -%}
 {% for dataset in datasets -%}
-| {{ dataset.workpackage }}: {{ dataset.task }} | **{{ dataset.name }}** | [{{ dataset.authors[0].family-names }}, {{ dataset.authors[0].given-names }}]({{ dataset.authors[0].orcid }}) *et al.* [✉️](mailto:{{ dataset.contact[0].email }}) | [{{ dataset.title }}]({{ dataset.id }} "{{ dataset.abstract }}") [✏️](https://github.com/ProPollSoil/propollsoil.github.io/tree/main/{{ dataset.name }}/README.md) | {{ dataset.reviewers[0].family-names }}, {{ dataset.reviewers[0].given-names }} @ {{ dataset.reviewers[0].affiliation }} | {{ dataset.message }}
+| {{ dataset.workpackage }}: {{ dataset.task }} | **{{ dataset.name }}** | [{{ dataset.authors[0].family-names }}, {{ dataset.authors[0].given-names }}]({{ dataset.authors[0].orcid }}) *et al.* [✉️](mailto:{{ dataset.contact[0].email }}) | [{{ dataset.title }}]({{ dataset.id }} "{{ dataset.abstract | urlencode }}") [✏️](https://github.com/ProPollSoil/propollsoil.github.io/tree/main/{{ dataset.name }}/README.md) | {{ dataset.reviewers[0].family-names }}, {{ dataset.reviewers[0].given-names }} @ {{ dataset.reviewers[0].affiliation }} | {{ dataset.message }}
 {% endfor %}
 
 ## Register
@@ -44,12 +44,12 @@ Sample extracted from Astrid's README.md on 2026-10-30 from [https://codeberg.or
 ```
 ---
 # id/name of your dataset
-id: some-short-dataset-name
-name: some-short-dataset-name
+id: dataset-example
+name: dataset-example
 # please fill out these project related fields: project, workpackage and task 
 project: propollsoil
-workpackage: WP1
-task: T1.5
+workpackage: WP0
+task: T0.0
 reviewers:
   - family-names: "Nomen"
     given-names: "Nescio"
@@ -82,16 +82,13 @@ authors:
     given-names: "Nescio"
     affiliation: "Some Institution"
     orcid: "https://orcid.org/0000-000X-XXXX-XXXX"
-    email: nomen.nescio@example.org
   - family-names: "Nomen"
     given-names: "Nescio"
     affiliation: "Some Institution"
     orcid: "https://orcid.org/0000-000X-XXXX-XXXX"
-    email: nomen.nescio@example.org
-abstract: >- # this means that newlines are ignored until keywords: 
-  This is a summary of the datasets that should give somewhat informed 
-  people an idea of content of this dataset and how the dataset 
-  was created (e.g., methods)
+abstract: >- # this means that newlines are ignored until keywords: four leading whitespaces 
+    This is a summary of the datasets that should give somewhat informed 
+  people an idea of content of this dataset and methods used.
    
 # keywords aid in finding this dataset
 keywords:
