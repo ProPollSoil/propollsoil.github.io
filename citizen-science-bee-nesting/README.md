@@ -13,11 +13,8 @@ reviewers:
     orcid: "https://orcid.org/0000-000X-XXXX-XXXX"
 title: Bee Nest Occurrence Data of Soil Nesting Bees
 
-message: >- # this means that newlines are ignored until version: . 
-    Replace this text with a status update for your dataset.
-    For instance, you can mention that the dataset is being compiled and
-    should be available somewhere in December 2035. However, the methods and
-    structure of the data is known and described here. 
+message: >- # this means that newlines are ignored until version: prefix with four whitespaces 
+    Dataset registered after discussion with Jeff and Dara on 2026-11-16 in Aarhus. 
 
 version: 1.5 
 # who to contact to learn more about the dataset
@@ -25,16 +22,16 @@ contact:
   - family-names: "Ollerton"
     given-names: "Jeff"
     affiliation: "University of Sussex"
-    orcid: "https://orcid.org/0000-000X-XXXX-XXXX"
+    orcid: "https://orcid.org/0000-0002-0887-8235"
     email: jeff.ollerton@gmail.com
 authors:
   - family-names: "Ollerton"
     given-names: "Jeff"
     affiliation: "University of Sussex"
-    orcid: "https://orcid.org/0000-000X-XXXX-XXXX"
+    orcid: "https://orcid.org/0000-0002-0887-8235"
     email: jeff.ollerton@gmail.com
 abstract: >- # this means that newlines are ignored until keywords: four leading whitespaces 
-    Ground Nesting Bee Records source from EuroBeeSoil iNaturalist project; https://www.inaturalist.org/projects/eurobeesoil
+    Ground Nesting Bee Records sourced from EuroBeeSoil iNaturalist project; https://www.inaturalist.org/projects/eurobeesoil
    
 # keywords aid in finding this dataset
 keywords:
@@ -50,7 +47,7 @@ license: CC0-1.0
 
 # Citizen Science Ground Nesting Bee Records 
 
-Ground Nesting Bee Records source from EuroBeeSoil iNaturalist project; [https://www.inaturalist.org/projects/eurobeesoil](https://www.inaturalist.org/projects/eurobeesoil)
+Ground Nesting Bee Records sourced from EuroBeeSoil iNaturalist project; [https://www.inaturalist.org/projects/eurobeesoil](https://www.inaturalist.org/projects/eurobeesoil)
 
 ## Methods
 
