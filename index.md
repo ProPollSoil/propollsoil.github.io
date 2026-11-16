@@ -55,13 +55,13 @@ reviewers:
     given-names: "Nescio"
     affiliation: "Some Institution"
     orcid: "https://orcid.org/0000-000X-XXXX-XXXX"
-title: Data Management Plan – Initial Version
+title: Dataset Example Title
 
 message: >- # this means that newlines are ignored until version: . 
-  Replace this text with a status update for your dataset.
-  For instance, you can mention that the dataset is being compiled and
-  should be available somewhere in December 2035. However, the methods and
-  structure of the data is known and described here. 
+    Replace this text with a status update for your dataset.
+    For instance, you can mention that the dataset is being compiled and
+    should be available somewhere in December 2035. However, the methods and
+    structure of the data is known and described here. 
 
 version: 1.5 
 # who to contact to learn more about the dataset
