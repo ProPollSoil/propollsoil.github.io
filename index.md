@@ -57,12 +57,6 @@ reviewers:
     orcid: "https://orcid.org/0000-000X-XXXX-XXXX"
 title: Data Management Plan – Initial Version
 
-# 
-# Please include the status of the dataset in the "message:" field.
-# So, if the dataset/document is in preparation, say the work is in preparation.
-# Also, if you have not yet selected reviewers, include your plan to find reviewers. 
-# 
-
 message: >- # this means that newlines are ignored until version: . 
   Replace this text with a status update for your dataset.
   For instance, you can mention that the dataset is being compiled and
@@ -99,10 +93,7 @@ keywords:
 #license: CC-BY-4.0
 license: CC0-1.0
 # For other license types, please contact your work package leader or data management board members.
-# 
-# End of Standard Citation File Format fields.
-
-### The "---" mark the end of the machine readable front matter part of this file.   
+### The "---" below mark the end of the machine readable front matter part of this file.   
 ---
 
 # My Dataset Name
