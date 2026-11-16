@@ -44,8 +44,8 @@ Sample extracted from Astrid's README.md on 2026-10-30 from [https://codeberg.or
 ```
 ---
 # id/name of your dataset
-id: dmp
-name: dmp
+id: some-short-dataset-name
+name: some-short-dataset-name
 # please fill out these project related fields: project, workpackage and task 
 project: propollsoil
 workpackage: WP1
