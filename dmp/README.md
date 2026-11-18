@@ -39,7 +39,7 @@ workpackage: WP1
 task: T1.5
 reviewers:
   - family-names: "Splitt"
-    given-names: "Alexandra"
+    given-names: "Aleksandra"
     affiliation: "INHORT"
     orcid: "https://orcid.org/0000-0002-3262-6185"
   - name: "Program Manager at the UPO Project Office"
