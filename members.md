@@ -46,10 +46,10 @@ map.addLayer(featureGroup);
 
 [members.json](/members.json)
 
-|name|affiliation|
-|---|---|
+|name|workpackage|affiliation|
+|---|---|---|
 {%- for member in site.members %}
-|[{{ member.given-names }} {{ member.family-names }}]({{ member.id }}) | {{ member.affiliation | strip_newlines }} |
+|[{{ member.given-names }} {{ member.family-names }}]({{ member.id }}) [{{ member.email }}](mailto:{{ member.email }}) | {{ member.work-package }} |{{ member.affiliation | strip_newlines }} |
 {%- endfor %}
 
 [<a href="https://github.com/propollsoil/propollsoil.github.io/tree/main/_members">source profiles</a>]

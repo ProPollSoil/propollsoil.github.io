@@ -3,6 +3,7 @@ layout: member
 id: jeff-ollerton
 given-names: Jeff
 family-names: Ollerton
+email: jeff.ollerton@gmail.com
 lat: 52.4777114
 long: -0.9208575
 affiliation: TODO
