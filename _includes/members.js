@@ -27,7 +27,7 @@ var img_src = "";
         "name": "{{ member.name }}",
         "popupContent": "\
 	  <img src='"+img_src+"' width='60px'>\
-          <br><a href='{{ member.id }}'>{{ member.name }}</a>,\
+          <br><a href='{{ member.id }}'>{{ member.given-name }} {{ member.family-name }}</a>,\
           {{ member.affiliation }}\
          "
       },
