@@ -56,3 +56,5 @@ plugins:
 collections:
     datasets:
         output: true
+    members:
+        output: true
