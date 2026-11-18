@@ -11,7 +11,7 @@ reviewers:
     given-names: "Nescio"
     affiliation: "Some Institution"
     orcid: "https://orcid.org/0000-000X-XXXX-XXXX"
-title: Bee Nest Occurrence Data of Soil Nesting Bees
+title: Citizen Science Ground Nesting Bee Records
 
 message: >- # this means that newlines are ignored until version: prefix with four whitespaces 
     Dataset registered after discussion with Jeff and Dara on 2026-11-16 in Aarhus. 
