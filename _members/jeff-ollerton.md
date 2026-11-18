@@ -6,7 +6,7 @@ family-names: Ollerton
 email: jeff.ollerton@gmail.com
 lat: 52.4777114
 long: -0.9208575
-affiliation: TODO
+affiliation: University of Sussex
 ---
 
 Professor Jeff Ollerton is an ecologist, author and consultant with more than 35 years’ experience studying the natural world, particularly plant–pollinator interactions and their importance for biodiversity, food production and society. He has published more than 190 scientific articles and book chapters, and his research has informed national and international initiatives to conserve pollinators and pollination services.
