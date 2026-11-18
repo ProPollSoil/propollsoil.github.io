@@ -7,8 +7,8 @@ work-package: WP4
 email: lena.deck@ucdconnect.ie
 orcid:
 wikidata: 
-lat: 53° 18' 18.00" N
-long: -6° 13' 12.00" W
+lat: 53.30499878 
+long: -6.21999912
 affiliation: University College Dublin
 github: 
 codeberg: 
