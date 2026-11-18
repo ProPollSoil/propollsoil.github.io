@@ -156,6 +156,16 @@ license: CC0-1.0
 
 # ProPollSoil Data Management Plan - Initial Version
 
+## Files 
+
+List the files that make up this dataset
+
+| name | description | 
+| --- | --- |
+| [README.md](./../dmp/README.md) | this file |
+| [dmp.pdf](./../dmp/dmp.pdf) | a copy of the data management plan |
+
+
 ## 1. Short description
 
 This registered item describes the initial Data Management Plan (DMP) of the Horizon Europe project **ProPollSoil - Understanding and managing soil health impacts to protect soil-dependent pollinators**.
