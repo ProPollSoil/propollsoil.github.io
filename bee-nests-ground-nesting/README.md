@@ -14,10 +14,7 @@ reviewers:
 title: Bee Nest Occurrence Data of Soil Nesting Bees
 
 message: >- # this means that newlines are ignored until version: . 
-    Replace this text with a status update for your dataset.
-    For instance, you can mention that the dataset is being compiled and
-    should be available somewhere in December 2035. However, the methods and
-    structure of the data is known and described here. 
+    Anne shared a url to a google sheet with data in progress on 2026-11-18
 
 version: 1.5 
 # who to contact to learn more about the dataset
