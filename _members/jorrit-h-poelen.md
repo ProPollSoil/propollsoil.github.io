@@ -9,7 +9,7 @@ orcid: https://orcid.org/0000-0003-3138-4118
 wikidata: https://www.wikidata.org/wiki/Q58206618
 lat: 44.97997
 long: -93.26384
-affiliation: Independent Open Source/Open Data Developer, Minneapolis, Minnesota
+affiliation: University of California, Santa Barbara, Cheadle Center for Biodiversity and Ecological Restoration; Ronin Institute for Independent Scholarship 2.0;
 github: jhpoelen
 codeberg: jhpoelen
 scholia: https://scholia.toolforge.org/author/Q58206618

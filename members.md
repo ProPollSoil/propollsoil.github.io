@@ -7,9 +7,9 @@ id: members
 <link rel="stylesheet" type="text/css" href="css/leaflet.css">
 <link rel="stylesheet" type="text/css" href="css/MarkerCluster.Default.css">
 
-The Open Traits Network has members participating in [events](events), contributing to [publications](publications) and studying specific [taxa](taxa). 
+The ProPollSoil Member Registry lists those who contribute to ProPollSoil.
 
-Would you like to become a member? Watch [Aud Halbritter](http://opentraits.org/members/aud-h-halbritter)'s [how-to-join video](https://youtu.be/bgVd-OHdZH4) and introduce yourself [here](https://github.com/open-traits-network/open-traits-network.github.io/issues/new?assignees=open-traits-network%2Feditors&labels=new+member&template=register-member.md&title=I%27d+like+to+join+the+Open+Traits+Network). Don't have a github account? Send an  {% include register-member-email.html -%} instead.
+Would you like to become a member? Watch [Aud Halbritter](http://opentraits.org/members/aud-h-halbritter)'s [how-to-join video](https://youtu.be/bgVd-OHdZH4) and introduce yourself [here](https://github.com/prollsoil/prollsoil.github.io/issues/new?assignees=prollsoil%2Feditors&labels=new+member&template=register-member.md&title=I%27d+like+to+join+the+ProPollSoil+Member+Registry). Don't have a github account? Send an  {% include register-member-email.html -%} instead.
 
 <div id="map-container" style="height:350px;width:550px;"></div>
 
@@ -33,7 +33,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 var featureGroup = L.markerClusterGroup();
 featureGroup.addLayer(
-	L.geoJSON(otnMembers, {
+	L.geoJSON(members, {
       onEachFeature: onEachFeature
     }
   )

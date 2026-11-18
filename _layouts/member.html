@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Member: {{ page.name | escape }}</h1>
+    [<a href="https://github.com/propollsoil/propollsoil.github.io/edit/main/_members/{{ page.id | split: "/" | last }}.md" target="_blank">Edit</a>]
+  </header>
+
+  <div class="post-content">
+    <table>
+      <tr><td><img src="" width="200px" id="profileImage" /></td>
+        <td>
+          <p>{{ page.affiliation | strip_newlines }}</p>
+          <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+          <p><a href="{{ page.orcid }}">{{ page.orcid }}</a></p>
+          <p><a href="{{ page.wikidata }}">{{ page.wikidata }}</a></p>
+          <p><a href="{{ page.scholia }}">{{ page.scholia }}</a></p>
+          <p><a href="{{ page.website }}">{{ page.website }}</a></p>
+          <p></p>
+	  <div id="member-map-container" style="height:350px;width:550px;"></div>
+        </td>
+      </tr>
+    </table>    
+    {{ content }}
+  </div>
+
+  <link rel="stylesheet" type="text/css" href="../css/leaflet.css">
+  <script type="text/javascript" src="../js/leaflet.js"></script>
+  <script type="text/javascript" src="../js/leaflet.markercluster.js"></script>
+  <script type="text/javascript">
+    {% include members.js %}
+    document.addEventListener("DOMContentLoaded", function(event) {
+      element = document.getElementById("profileImage");
+      element.src = memberImageSrc["{{page.id}}"];
+    });
+    var map = L.map('member-map-container').setView([0,0], 1);
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+  {% if page.lat and page.long %}
+    var marker = L.marker([{{page.lat}}, {{page.long}}], { title: "{{page.affiliation}}" }).addTo(map);
+  {% endif %}
+  </script>
+
+</article>

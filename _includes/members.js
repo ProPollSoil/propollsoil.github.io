@@ -1,5 +1,5 @@
 var memberImageSrc = {};
-var otnMembers = [];
+var members = [];
 var img_src = "";
 
 {% for member in site.members %}
@@ -21,13 +21,13 @@ var img_src = "";
           {% endif %}
     memberImageSrc["{{member.id}}"] = img_src;
   {% if member.lat and member.long %}
-    otnMembers.push({
+    members.push({
       "type": "Feature",
       "properties": {
         "name": "{{ member.name }}",
         "popupContent": "\
 	  <img src='"+img_src+"' width='60px'>\
-          <br><a href='{{ member.id }}'>{{ member.given-name }} {{ member.family-name }}</a>,\
+          <br><a href='{{ member.id }}'>{{ member.given-names }} {{ member.family-names }}</a>,\
           {{ member.affiliation }}\
          "
       },
